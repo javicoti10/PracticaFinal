@@ -21,7 +21,6 @@ import javax.servlet.http.HttpServletResponse;
 //Esta clase representa un servlet para el inicio de sesión
 //Se encarga de validar las credenciales de usuario y redirigir a la página de bienvenida o mostrar un error según corresponda
 
-
 @WebServlet("/loginservlet")
 public class loginservlet extends HttpServlet {
 	 private static final long serialVersionUID = 1L;
